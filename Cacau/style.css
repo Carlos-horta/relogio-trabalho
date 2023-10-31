@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.clock {
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.time {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hour, .minute, .second {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.hour {
+  color: #ff0000;
+}
+
+.minute {
+  color: #00ff00;
+}
+
+.second {
+  color: #0000ff;
+}
+
+/* Estilos personalizados */
+
+.clock {
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.time {
+  background-color: #ccc;
+  padding: 10px;
+}
+
+.hour {
+  font-family: 'Roboto', sans-serif;
+}

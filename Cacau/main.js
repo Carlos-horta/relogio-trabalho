@@ -6,9 +6,9 @@ function updateTime() {
     const second = date.getSeconds();
   
     // Atualiza o relógio
-    document.querySelector(".hour").textContent = hour;
-    document.querySelector(".minute").textContent = minute;
-    document.querySelector(".second").textContent = second;
+    document.querySelector(".hour").innerHTML = hour;
+    document.querySelector(".minute").innerHTML = minute;
+    document.querySelector(".second").innerHTML = second;
   }
   
   // Inicia o temporizador
